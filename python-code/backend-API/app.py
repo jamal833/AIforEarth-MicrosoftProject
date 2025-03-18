@@ -9,7 +9,7 @@ from model import train_flood_model
 app = Flask(__name__)
 CORS(app)
 
-PATH='ADD path to your model folder'
+PATH='ADD folder path to your model folder'
 
 model = joblib.load(PATH)
 
